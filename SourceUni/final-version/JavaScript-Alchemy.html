@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html>
+
+<head >
+    <link href="index.css" rel="stylesheet" type="text/css">
+
+    <meta charset="UTF-8">
+    <title>JavaScript Alchemy Course</title>
+<style>
+    #pic{
+      width:300px;
+    }
+    @media screen and (max-width: 920px) {
+        #pic{
+         height: 230px;
+            width: 260px;
+        }
+    }
+    @media screen and (max-width: 448px){
+        #pic{
+            height: 160px;
+            width: 150px;
+        }
+    }
+
+</style>
+
+</head>
+<body  >
+
+<header >
+    <div class="logo" onClick="parent.location='index.html'"></div>
+    <div id="p">
+        <svg id="pentagram" width="52" height="52">
+            <circle cx="26" cy="26" r="25" stroke="blue" stroke-width="2" />
+            <line stroke="blue" stroke-width="2" x1="42" y1="5" x2="26" y2="50"  />
+            <line stroke="blue" stroke-width="2" x1="11" y1="5" x2="26" y2="50"  />
+            <line stroke="blue" stroke-width="2" x1="11" y1="5" x2="50" y2="35"  />
+            <line stroke="blue" stroke-width="2" x1="42" y1="5" x2="2" y2="36"  />
+            <line stroke="blue" stroke-width="2" x1="4" y1="34" x2="49" y2="34"  />
+        </svg>
+
+        <ul class="sub-menu">
+            <li >
+                <a href="About%20Us.html" >
+                    НАЧАЛО
+                </a>
+            </li>
+            <li>
+                <a href="About%20Us.html" >
+                    ЗА НАС
+                </a>
+            </li>
+            <li id="course" >
+                КУРСОВЕ
+                <ul class="sub-menu2">
+                    <li>
+                        <a href="Courses-Java.html" >
+                            Летене с Java
+                        </a>
+                    </li>
+                    <li>
+                        <a href="JavaScript-Alchemy.html" >
+                            JavaScript Алхимия
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Courses-HTML-CSS.html" > HTML И CSS отвари</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"  >
+                    КОНТАКТИ
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div id="buttons">
+        <ul id="menu">
+            <li>
+                    <a href="index.html" class="nav-buttons" >
+                    НАЧАЛО
+                </a>
+            </li>
+            <li>
+                <a href="About%20Us.html" class="nav-buttons" >
+                    ЗА НАС
+                </a>
+            </li>
+
+            <li id="course3" >
+                <a  class="notanav" >
+                    КУРСОВЕ
+                    <ul class="sub-menu3">
+                        <li onClick="parent.location='Courses-Java.html'">
+                            Летене с Java
+                        </li>
+                        <li  onClick="parent.location='JavaScript-Alchemy.html'" >
+                            JavaScript Алхимия
+                        </li>
+                        <li   onClick="parent.location='Courses-HTML-CSS.html'" >
+                            HTML И CSS отвари
+                        </li>
+                    </ul>
+
+                </a>
+            </li>
+            <li>
+                <a href="Contacts.html" class="nav-buttons" >
+                    КОНТАКТИ
+                </a>
+            </li>
+        </ul>
+    </div>
+
+</header>
+
+<aside>
+    <div id="guz4" ></div>
+    <div id="nakof"> <img src="images/nakof2.png" alt="logo"></div>
+</aside>
+
+<section>
+             <div class="java">
+             <strong>JavaScript Алхимия</strong>
+                   <br><br>
+			     <img id="pic" src="images/alchemy.jpg" alt="pic" >
+	             <p>
+                    В процес на разработка ...				 
+				 </p>
+
+             </div>
+</section>
+
+<footer >
+    <div id="logos">
+
+        <a href="http://validator.w3.org/">
+            <img style="border:0;width:88px;height:16px"
+                 src="images/html5_valid.png"
+                 alt="Валиден HTML!" />
+        </a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:16px"
+                 src="images/css3_valid.png"
+                 alt="Валиден CSS!" />
+        </a>
+        <button class="scarybutton" style="float: right" onclick="this.innerHTML='ВЕЧЕ СИ КАНДИДАТСТВАЛ!';parent.location='apply.html'">КАНДИДАТСТВАЙ!</button>
+    </div>
+
+</footer>
+        <script type="text/javascript" src="eyes.js" ></script>
+</body>
+
+</html>

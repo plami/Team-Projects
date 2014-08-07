@@ -1,0 +1,187 @@
+<!DOCTYPE HTML>
+<html>
+
+<head >
+    <link href="index.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <title>About Us</title>
+<style>
+#nakoff{
+    width: 300px;
+}
+ #tedo{
+     width: 300px;
+  }
+    #vlad{
+        width: 300px;
+    }
+@media screen and (max-width: 920px){
+#nakoff,#tedo,#vlad{
+    width: 200px;;
+}
+}
+@media screen and (max-width: 815px) {
+    #nakoff, #tedo, #vlad {
+        width: 300px;;
+    }
+}
+@media screen and (max-width: 500px) {
+    #nakoff, #tedo, #vlad {
+        width: 200px;;
+    }
+}
+</style>
+</head>
+<body>
+
+<header >
+    <div class="logo" onClick="parent.location='index.html'"></div>
+    <div id="p" >
+        <svg id="pentagram" width="52" height="52">
+            <circle cx="26" cy="26" r="25" stroke="blue" stroke-width="2" />
+            <line stroke="blue" stroke-width="2" x1="42" y1="5" x2="26" y2="50"  />
+            <line stroke="blue" stroke-width="2" x1="11" y1="5" x2="26" y2="50"  />
+            <line stroke="blue" stroke-width="2" x1="11" y1="5" x2="50" y2="35"  />
+            <line stroke="blue" stroke-width="2" x1="42" y1="5" x2="2" y2="36"  />
+            <line stroke="blue" stroke-width="2" x1="4" y1="34" x2="49" y2="34"  />
+        </svg>
+
+        <ul class="sub-menu">
+            <li>
+                <a href="index.html" >
+                    НАЧАЛО
+                </a>
+            </li>
+            <li>
+                <a href="About%20Us.html" >
+                    ЗА НАС
+                </a>
+            </li>
+            <li id="course" >
+                КУРСОВЕ
+                <ul class="sub-menu2">
+                    <li>
+                        <a href="Courses-Java.html" >
+                            Летене с Java
+                        </a>
+                    </li>
+                    <li>
+                        <a href="JavaScript-Alchemy.html" >
+                            JavaScript Алхимия
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Courses-HTML-CSS.html"  > HTML И CSS отвари</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="Contacts.html" >
+                    КОНТАКТИ
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div id="buttons">
+        <ul id="menu">
+            <li>
+                <a href="index.html" class="nav-buttons" >
+                    НАЧАЛО
+                </a>
+            </li>
+            <li>
+                <a href="About%20Us.html" class="nav-buttons" >
+                    ЗА НАС
+                </a>
+            </li>
+            <li id="course3"  >
+                <a class="notanav"  >
+                    КУРСОВЕ
+                    <ul class="sub-menu3">
+                        <li onClick="parent.location='Courses-Java.html'"  >
+                            Летене с Java
+                        </li>
+                        <li  onClick="parent.location='JavaScript-Alchemy.html'"  >
+                            JavaScript Алхимия
+                        </li>
+                        <li   onClick="parent.location='Courses-HTML-CSS.html'"  >
+                            HTML И CSS отвари
+                        </li>
+                    </ul>
+
+                </a>
+            </li>
+            <li>
+                <a href="Contacts.html" class="nav-buttons"  >
+                    КОНТАКТИ
+                </a>
+            </li>
+        </ul>
+    </div>
+
+</header>
+
+<aside>
+    <div id="guz4" ></div>
+    <div id="nakof"> <img src="images/nakof2.png" ></div>
+</aside>
+
+<section>
+             <div class="java" >
+             <strong>Преподаватели</strong>
+                 <br><br>
+			     <img src="images/nakov.png" id="nakoff" alt="nqma">
+	             <p>
+                    <b>Светлус Наковдор</b> - директор, професор, черен магьосник. Навлиза в тъмните изкуства още като дете.
+                     Изобретява собствени черни заклинания(наречени още Непростими) и това е със цел да овладее защитни
+                     магии които те пазят от 'Жадните-за-пароли'.От 20 години практикува древните изкуства.За това време
+                     е успял да овладее многобройни заклинания на различни мистични езици. Редовно говори пред публика
+                     за ползата от развитие на магическите умения. Той е магьосникът който тласка университетът по магия
+                     към светло бъдеще, за да може все повече мъгъли да разберат ползата от магията.
+                 </p>
+				 <hr>
+			     <img src="images/vlado.png" id="vlad" alt="nqma">
+				 <p>
+				 <b>Влавадули Гришам</b> е бил най-добрият ученик по ПИК(призоваване и изписване на корали  в ТУ),
+				 като неговите амбиция и отдаденост били безгранични. Един ден му омръзнало липсата на развитие 
+				 и решил да се промъкне в забранената библиотека на C(Creation), където били запазени 
+				 заклинанията на този древен магически език, извор на живота и бащата на всички езици.
+				 Магическият консул веднага разбрал за тази трансгресия и заточил младия магьосник. 
+				 Затова Владо до ден днешен учи в University of Sourcery утолявайки жаждата си за магия и натрупвайки
+				 нови и нови способности постоянно до един ден, когато той ще се завърне в ТУ и ще предизвика
+				 великият маг Маргин Х.
+				 </p>
+				 <hr>
+			     <img src="images/teodor.png" id=tedo alt="nqma">
+				 <p>
+				 <b>Теодорос Куртин</b> е един от приближените на Светлус Наковдоре. Завършва обучението си в предишната академия за тъмни
+                 магьосници. Владее размахване на пръчка и отправяне на заклинания към Java и всичко което не работи както трябва.
+                 Занимава се със вещерство едва от 3 години, но вече владее почти всички не-мъгълски науки. Обича да научава нови
+                 заклинания всеки ден и да ги практикува пред младите и неопитни магьосници.
+				 </p>
+				 <hr>
+
+             </div>
+</section>
+
+<footer >
+    <div id="logos">
+
+        <a href="http://validator.w3.org/">
+            <img style="border:0;width:88px;height:16px"
+                 src="images/html5_valid.png"
+                 alt="Валиден HTML!" />
+        </a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:16px"
+                 src="images/css3_valid.png"
+                 alt="Валиден CSS!" />
+        </a>
+        <button class="scarybutton" style="float: right" onclick="this.innerHTML='ВЕЧЕ СИ КАНДИДАТСТВАЛ!';parent.location='apply.html'">КАНДИДАТСТВАЙ!</button>
+    </div>
+
+</footer>
+        <script type="text/javascript" src="eyes.js" ></script>
+</body>
+
+</html>

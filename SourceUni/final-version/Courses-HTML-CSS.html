@@ -1,0 +1,189 @@
+<!DOCTYPE HTML>
+<html>
+
+<head >
+    <link href="index.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <title>HTML and CSS Course</title>
+<style>
+    #pic{
+        width: 275px;
+    }
+
+    @media screen and (max-width: 920px){
+        #pic{
+            width: 200px;;
+        }
+    }
+    @media screen and (max-width: 815px) {
+        #pic{
+            width: 300px;;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        #pic{
+
+            width: 200px;;
+        }
+
+        .java{
+            line-height: 30px;
+        }
+    }
+
+</style>
+</head>
+<body  >
+
+<header >
+    <div class="logo" onClick="parent.location='index.html'"></div>
+    <div id="p" >
+        <svg id="pentagram" width="52" height="52">
+            <circle cx="26" cy="26" r="25" stroke="blue" stroke-width="2" />
+            <line stroke="blue" stroke-width="2" x1="42" y1="5" x2="26" y2="50"  />
+            <line stroke="blue" stroke-width="2" x1="11" y1="5" x2="26" y2="50"  />
+            <line stroke="blue" stroke-width="2" x1="11" y1="5" x2="50" y2="35"  />
+            <line stroke="blue" stroke-width="2" x1="42" y1="5" x2="2" y2="36"  />
+            <line stroke="blue" stroke-width="2" x1="4" y1="34" x2="49" y2="34"  />
+        </svg>
+
+        <ul class="sub-menu">
+            <li>
+                <a href="index.html" >
+                    НАЧАЛО
+                </a>
+            </li>
+            <li>
+                <a href="About%20Us.html" >
+                    ЗА НАС
+                </a>
+            </li>
+            <li id="course"  >
+                КУРСОВЕ
+                <ul class="sub-menu2">
+                    <li>
+                        <a href="Courses-Java.html" >
+                            Летене с Java
+                        </a>
+                    </li>
+                    <li>
+                        <a href="JavaScript-Alchemy.html" >
+                            JavaScript Алхимия
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Courses-HTML-CSS.html"  > HTML И CSS отвари</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" >
+                    КОНТАКТИ
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div id="buttons">
+        <ul id="menu">
+            <li>
+                <a href="index.html" class="nav-buttons" >
+                    НАЧАЛО
+                </a>
+            </li>
+            <li>
+                <a href="About%20Us.html" class="nav-buttons" >
+                    ЗА НАС
+                </a>
+            </li>
+            <li id="course3" >
+                <a  class="notanav" >
+                    КУРСОВЕ
+                    <ul class="sub-menu3">
+                        <li onClick="parent.location='Courses-Java.html'" >
+                            Летене с Java
+                        </li>
+                        <li  onClick="parent.location='JavaScript-Alchemy.html'" >
+                            JavaScript Алхимия
+                        </li>
+                        <li   onClick="parent.location='Courses-HTML-CSS.html'" >
+                            HTML И CSS отвари
+                        </li>
+                    </ul>
+
+                </a>
+            </li>
+            <li>
+                <a href="Contacts.html" class="nav-buttons" >
+                    КОНТАКТИ
+                </a>
+            </li>
+        </ul>
+    </div>
+
+</header>
+
+<aside>
+    <div id="guz4" ></div>
+    <div id="nakof"> <img src="images/nakof2.png" alt="n"></div>
+</aside>
+
+<section>
+             <div class="java" >
+             <strong>HTML и CSS отвари</strong>
+          <br><br>
+			     <img src="images/potions.jpg" alt="pic" id="pic">
+	             <p>
+				 Целта на курса "HTML и CSS отвари" е да се положат основни знания по отвари
+				 и конкретно запознаване с посочените по-горе видове отвари.
+				 Курсът е разделен на две части, като в първата част се усвояват основни
+				 познания по отваряне на блокови портали чрез използването на HTML. Това
+				 може да се извършва по различни методи. В курса са засегнати както новите технологии,
+				 така и по-старите. Например специално внимание е отделено на метода "frames", 
+				 който все още се използва от Софийски Адски Транспорт за телепортиране на
+				 излезли от употреба транспортни средства от други галактики. Много популярни в Софийски 
+                 Адски транспорт са специалните каруци с гумени колелета, с които много бързо и лесно се 
+				 стига от една точка до друга.
+				 Използват се и по-съвременни методи като "div" и "span", които представляват правоъгълни 
+				 портали за пренасяне на различни обекти. Обучаемите трябва да усъвършенстват
+				 уменията си за телепортиране на любимите обекти на основателя на университета
+				 маг Светлус Наковдоре с кодово име "кравички". Ако случайно в бързината си
+				 учениците телепортират други много подобни обекти с кодово име "овчици",
+				 магът ще е изключително недоволен и може да има възклицания като "Алоо,
+				 що ме правиш на луд?! Кой си ти бе?!" За по-напредналите е предвидена задача,
+				 в която обучаемите трябва след телепортирането да вдигнат обектите във въздуха
+                 и здраво да ги разклатят. Именно тогава магът ще бъде доволен: "Красота, изящество,
+				 стил Роял!"
+                 </p>
+				 <p>
+				 Във втората част на курса се изучават други отвари "CSS", чиято основна цел е 
+				 подреждането на създадените портали по определен начин. Обучаемите трябва да се
+				 научат да ги подреждат по метода "block" или "inline-block", да ги украсяват цветово
+			     и да ги активират и дезактивират. За стипендиантите е предвиден специален бонус ако
+				 успеят да създадат портали, през които да пратят професорите на почивка в Хаваи. За 
+				 стипендиантите, които успеят да телепортират любимата марка ретро-автомобили на маг
+				 Светлус Наковдоре, е предвиден бонус от 10% и поздравления "Браво бе пич!"				 
+				 </p>
+
+             </div>
+</section>
+
+<footer >
+    <div id="logos">
+    <a href="http://validator.w3.org/">
+        <img style="border:0;width:88px;height:16px"
+             src="images/html5_valid.png"
+             alt="Валиден HTML!" />
+    </a>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:16px"
+             src="images/css3_valid.png"
+             alt="Валиден CSS!" />
+    </a>
+        <button class="scarybutton" style="float: right" onclick="this.innerHTML='ВЕЧЕ СИ КАНДИДАТСТВАЛ!';parent.location='apply.html'">КАНДИДАТСТВАЙ!</button>
+    </div>
+
+</footer>
+        <script type="text/javascript" src="eyes.js" ></script>
+</body>
+
+</html>
